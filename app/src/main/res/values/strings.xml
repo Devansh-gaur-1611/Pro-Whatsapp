@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Social Media</string>
+    <string name="createpost">CreatePost</string>
+    <string name="set_your_image_and_photo">Set Your Image and Photo</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="Msg">Tap to message</string>
+</resources>

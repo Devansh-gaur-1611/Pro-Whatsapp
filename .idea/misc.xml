@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/drawable-v24/background_sender.xml" value="0.20925925925925926" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14322916666666666" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/drawable/action_bar.xml" value="0.14114583333333333" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/drawable/add.xml" value="0.14322916666666666" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/drawable/add_a_photo.xml" value="0.17916666666666667" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/drawable/attach.xml" value="0.20925925925925926" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/drawable/background.xml" value="0.20925925925925926" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/drawable/bg_send_edittext.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/drawable/bg_sender.xml" value="0.5" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/drawable/circle.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.14322916666666666" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14322916666666666" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/drawable/img.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/drawable/send.xml" value="0.20925925925925926" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/drawable/share.xml" value="0.2203125" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/drawable/unliked.xml" value="0.20925925925925926" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/activity_change_image.xml" value="0.2310126582278481" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/activity_chats.xml" value="0.16" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/activity_chats_image_open.xml" value="0.22" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/activity_see_image.xml" value="0.18" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/activity_send_image_from_chats.xml" value="0.18854166666666666" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/activity_set_name_and_image.xml" value="0.18" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/activity_sign_in.xml" value="0.1" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/activity_users.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/activity_users_in_recyclerview.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/activity_wallpaper.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/item_post.xml" value="0.20102564102564102" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/sample_receiver.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/sample_receiver1.xml" value="0.25" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/sample_sender.xml" value="0.33" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/sample_sender1.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/user_view.xml" value="0.18854166666666666" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/layout/wallpaper_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/menu/Chats_Activity_menu.xml" value="0.18854166666666666" />
+        <entry key="..\:/AndroidStudioProjects/SocialMedia/app/src/main/res/menu/three_dots_on_top.xml" value="0.20102564102564102" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

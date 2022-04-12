@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/Relative_Layout_ChatsActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Chats_activity">
+    <ImageView
+        android:id="@+id/background_chats"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter"
+        />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/Toolbar_chats_activity"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/teal_700">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayoutTOP"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true">
+
+            <ImageView
+                android:id="@+id/backArrow_activity_chats"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/ic_baseline_arrow_back_24"
+                android:background="?attr/selectableItemBackground"/>
+
+            <ImageView
+                android:id="@+id/user_img_chatsActivity"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="15dp"
+                android:layout_toEndOf="@id/backArrow_activity_chats"
+                android:scaleType="centerCrop"
+                android:src="@drawable/user" />
+
+
+            <TextView
+                android:id="@+id/reciever_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:layout_toRightOf="@id/user_img_chatsActivity"
+                android:ellipsize="marquee"
+                android:singleLine="true"
+                android:text="Devansh Gaur"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chats_Details"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/relativeLayoutBottom"
+        android:layout_below="@id/Toolbar_chats_activity"
+        />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_toStartOf="@id/sendChatBtn"
+            android:background="@drawable/bg_send_edittext"
+            android:paddingStart="15dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="16dp"
+            android:paddingBottom="4dp">
+
+            <EditText
+                android:id="@+id/send_text_sendImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toLeftOf="@id/img_sendBtn"
+                android:backgroundTint="@color/white"
+
+                android:fadeScrollbars="true"
+                android:hint="Type your message"
+                android:inputType="none"
+                android:maxLines="5" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/img_sendBtn"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+
+                android:layout_centerInParent="true"
+                android:background="@drawable/attach"
+                android:backgroundTint="#000000"
+                app:srcCompat="@drawable/attach" />
+        </RelativeLayout>
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/sendChatBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@color/teal_700"
+            android:clickable="true"
+            app:srcCompat="@drawable/send" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/SendingImgProgressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="277dp"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+
+    <item android:id="@+id/call_video"
+        android:title="Share"
+        android:icon="@drawable/video_call"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/call_audio"
+        android:title="Share"
+        android:icon="@drawable/call"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/dots_three"
+        android:title="Options"
+        android:orderInCategory="101"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_more_vert_24">
+
+        <menu>
+
+            <item android:id="@+id/view_contact"
+                app:showAsAction="ifRoom"
+                android:title="View Contact" />
+
+
+            <item android:id="@+id/search"
+                app:showAsAction="ifRoom"
+                android:title="Search" />
+
+            <item android:id="@+id/mute_notifications"
+                app:showAsAction="ifRoom"
+                android:title="Mute Notifications" />
+            <item android:id="@+id/media"
+                app:showAsAction="ifRoom"
+                android:title="Media,links &amp; docs" />
+            <item android:id="@+id/wallpaper"
+                app:showAsAction="ifRoom"
+                android:title="Wallpaper" />
+
+            <item android:title="More">
+                <menu>
+                    <item android:id="@+id/report"
+                        app:showAsAction="ifRoom"
+                        android:title="Report" />
+                    <item android:id="@+id/Block"
+                        app:showAsAction="ifRoom"
+                        android:title="Block" />
+                    <item android:id="@+id/Clear_Chat"
+                        app:showAsAction="ifRoom"
+                        android:title="Clear Chats" />
+                    <item android:id="@+id/Export_chats"
+                        app:showAsAction="ifRoom"
+                        android:title="Export Chats" />
+                    <item android:id="@+id/Add_shortcut"
+                        app:showAsAction="ifRoom"
+                        android:title="Add Shortcut" />
+                </menu>
+            </item>
+
+        </menu>
+
+    </item>
+
+</menu>
